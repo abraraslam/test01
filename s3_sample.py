@@ -114,6 +114,7 @@ print('Object last modified: {}'.format(obj.last_modified))
 # 'objects' and its batch action 'delete'. Batch actions return a list
 # of responses, because boto3 may have to take multiple actions iteratively to
 # complete the action.
+# test comments
 
 print('\nDeleting all objects in bucket {}.'.format(bucket_name))
 delete_responses = bucket.objects.delete()
